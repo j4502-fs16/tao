@@ -26,3 +26,29 @@ body{
   margin-top:0;
   text-align:right;
 }
+
+
+ #nav a:link, a: visited {
+   display :block;
+    color: #ffffff;
+    background-color: #98bf21;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+
+ }
+  #nav a:hover, a:active{
+    background-color: #7a991a;
+  }
+
+ #footer {
+    color: black;
+    front-family: Georgia, "Times New Roman", serif;
+    front-size: 0.8
+    border-top: 1px solid black;
+ }
+     img {
+          border: none; 
+     }
