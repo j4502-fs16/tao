@@ -29,7 +29,7 @@ p.light{
 
  #nav a:link, a: visited {
     display:block;
-    color: #ffffff;
+    color: #98bf20;
     background-color: #98bf21;
     text-align: center;
     text-decoration: none;
@@ -66,7 +66,7 @@ p.light{
   }
 
   #container{
-    width: 90%;
+    width: 95%;
     background-color:#ffffff;
     margin:0 auto;
   }
@@ -75,7 +75,7 @@ p.light{
     color: black;
     front-family: Georgia, "Times New Roman", serif;
     front-size: 0.8em;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
  }
      img {
           border: none;
