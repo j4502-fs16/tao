@@ -74,8 +74,8 @@ p.light{
  #footer {
     color: black;
     front-family: Georgia, "Times New Roman", serif;
-    front-size: 0.7em;
-    border-top: 0.8px solid black;
+    front-size: 0.8em;
+    border-top: 1px solid black;
  }
      img {
           border: none;
