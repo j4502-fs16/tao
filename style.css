@@ -53,13 +53,13 @@ p.light{
  }
 
   #body a:hover{
-    color: #264d73
+    color: #264d73;
     text-decoration:none;
   }
 
   .caption{
     color:green;
-    font-family:Geogia, "Times New Roman", serif:cursive;
+    font-family:Geogia,"Times New Roman"; 
     font-size:0.8em;
     font-style:italic;
     marging-top:0;
