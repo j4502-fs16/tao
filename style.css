@@ -72,10 +72,11 @@ p.light{
   }
 
  #footer {
-    color: black;
-    front-family: Georgia, "Times New Roman", serif;
-    front-size: 0.8em;
-    border-top: 1px solid black;
+   color: black;
+   font-family: Georgia, "Times New Roman", serif;
+   font-size: 0.8em;
+   border-top: 1px solid black;
+
  }
      img {
           border: none;
