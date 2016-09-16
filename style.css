@@ -1,15 +1,23 @@
-p {
-  color: red;
-  color: #666666;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1{
-  font-family: Georgia, "Times New Roman", serif;
-}
-
 body{
+  font-family: Georgia, "Times New Roman", serif;
   background-color:#ebe3ce;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+h2{
+  color:#0f1f3d;
+
+}
+
+p{
+  color:#130606;
+}
+
+p.light{
+   font-weight: lighter;
 }
 
 #container{
@@ -18,18 +26,9 @@ body{
   margin: 0 auto;
 }
 
-.caption{
-  color:black;
-  font-family:Georgia, "Times New Roman", serif;
-  font-size:0.8em;
-  font-style:italic;
-  margin-top:0;
-  text-align:right;
-}
-
 
  #nav a:link, a: visited {
-   display :block;
+    display:block;
     color: #ffffff;
     background-color: #98bf21;
     text-align: center;
@@ -37,18 +36,39 @@ body{
     padding: 4px;
     font-weight: bold;
     font-family: Helvetica, Arial, sans-serif;
-
  }
+
   #nav a:hover, a:active{
     background-color: #7a991a;
+  }
+
+  #body a:link{
+     color:#3973ac;
+    text-decoration:none;
+  }
+
+ #body a:visited{
+   color:#6666ff;
+    text-decoration:none;
+ }
+
+  #body a:hover{
+    color: #264d73
+    text-decoration:none;
+  }
+
+  #container{
+    width: 95%;
+    background-color:#ffffff;
+    margin:0 auto;
   }
 
  #footer {
     color: black;
     front-family: Georgia, "Times New Roman", serif;
-    front-size: 0.8
+    front-size: 0.8em;
     border-top: 1px solid black;
  }
      img {
-          border: none; 
+          border: none;
      }
