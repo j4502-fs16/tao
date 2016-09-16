@@ -44,7 +44,7 @@ p.light{
 
   #nav li{
     list-style-type: none;
-    float:center;
+    float:left;
     padding:0;
     width:20%auto;height:10%
   }
