@@ -22,14 +22,14 @@ p.light{
 
 #container{
   width: 95%;
-  background-color:#ffffff;
+  background-color:#98bf20;
   margin: 0 auto;
 }
 
 
  #nav a:link, a: visited {
     display:block;
-    color: #98bf20;
+    color: #ffffff;
     background-color: #98bf21;
     text-align: center;
     text-decoration: none;
