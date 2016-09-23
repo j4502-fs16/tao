@@ -1,18 +1,22 @@
-body{
-  font-family: Georgia, "Times New Roman", serif;
-  background-color:#ebe3ce;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-top: 25px;
+html{
+  font-size:100%
 }
 
-h2{
-  color:#0f1f3d;
 
+
+body{
+  background-color:#ebe3ce;
+}
+
+h1, h2, h3, h4, h5,  {
+  color:#0f1f3d;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
 p{
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color:#130606;
 }
 
@@ -69,11 +73,12 @@ p.light{
   }
 
   .caption{
-    color:green;
-    font-family:Geogia,"Times New Roman";
+    color:black;
+    font-family:"Merriweather", Georgia,"Times New Roman", serif;
     font-size:0.8em;
     font-style:italic;
     marging-top:0;
+    text-align: right;
   }
 
   #container{
