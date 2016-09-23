@@ -54,11 +54,11 @@ body{
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, comic, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #nav a:hover, a:active {
-    background-color: #f1f583;
+    background-color: #dabe23;
 }
 
 .caption {
