@@ -29,6 +29,11 @@ body{
 	background-color:#ebe3ce;
 }
 
+img {
+	 border-style: none;
+	 text-align: center;
+}
+
 #container{
     width: 95%;
     background-color: #f9eca7;
