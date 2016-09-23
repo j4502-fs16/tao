@@ -5,7 +5,8 @@ html {
 p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 1.0rem;
+	text-align: center;
 }
 
 .italic {
@@ -66,6 +67,9 @@ img {
     background-color: #dabe23;
 }
 
+#nav2 a:link, a:visited {
+	 font-family: Helvetica, Comic, sans-serif;
+}
 .caption {
     color: black;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
