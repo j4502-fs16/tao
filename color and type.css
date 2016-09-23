@@ -30,8 +30,8 @@ body{
 }
 
 #container{
-    width: 95%;
-    background-color: #ffffff;
+    width: 100%;
+    background-color: #f9eca7;
     margin: 0 auto;
 }
 
@@ -55,11 +55,11 @@ body{
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Comic, sans-serif;
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: #dabe23;
 }
 
 .caption {
