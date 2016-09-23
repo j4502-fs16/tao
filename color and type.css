@@ -31,7 +31,6 @@ body{
 
 img {
 	 border-style: none;
-	 text-align: center;
 }
 
 #container{
@@ -81,4 +80,5 @@ img {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
+		text-align: center;
 }
