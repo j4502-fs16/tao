@@ -30,9 +30,9 @@ body{
 }
 
 #container{
-    width: 100%;
+    width: 95%;
     background-color: #f9eca7;
-    margin: 0.5 auto;
+    margin: 0 auto;
 }
 
 #nav {
