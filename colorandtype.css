@@ -2,6 +2,111 @@ html {
 	font-size: 100%
 }
 
+.navigation{
+  list-style: none;
+  background: gray;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-flow:column;
+}
+
+.navigation a{
+  text-decoration: none;
+  display: block;
+  text-align:center;
+  color: white;
+  padding:10px;
+  border-top:1px solid black;
+  border-bottom:1px solid white;
+}
+
+.navigation li:last-of-type a{
+  border-bottom: none;
+}
+
+img {
+  width: 100%;
+}
+
+.header, .main, .aside, .footer{
+  flex: 1 100%;
+  padding: 10px;
+}
+
+.header {
+  background: lightgrey;
+}
+
+.footer {
+  background: lightblue;
+}
+
+.main {
+  background:grey;
+}
+
+.aside-1 {
+  background:purple;
+}
+
+.aside-2 {
+  background:lightpink;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main {
+  text-align: left
+}
+
+@media (min-width: 800px){
+    .navigation {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
+    .navigation a:hover {
+      background: purple;
+    }
+    .aside {
+      flex: 1 auto;
+    }
+    .main {
+      flex: 3 0px;
+    }
+    .aside-1{
+      order:1;
+    }
+    .main{
+      order: 2;
+    }
+    .aside-2{
+      order: 3;
+    }
+    .footer{
+      order: 4;
+    }
+    .main {
+      display: flex;
+      flex-flow: row;
+    }
+    img {
+      width: 50%;
+      height: 50%;
+      margin-right: 10px;
+    }
+    .navigation a {
+      border: none;
+    }
+}
+
+
+
 p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
@@ -33,18 +138,14 @@ h3{
 }
 
 body{
-	background-color:#ebe3ce;
+	background-color:lightpink;
 }
 
 img {
 	 border-style: none;
 }
 
-#container{
-    width: 95%;
-    background-color: #f9eca7;
-    margin: 0 auto;
-}
+
 
 #nav {
     padding: 0;
@@ -69,13 +170,7 @@ img {
     font-family: Helvetica, Comic, sans-serif;
 }
 
-#nav a:hover, a:active {
-    background-color: #dabe23;
-}
 
-#nav2 a:link, a:visited {
-	 font-family: Helvetica, Comic, sans-serif;
-}
 .caption {
     color: black;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
