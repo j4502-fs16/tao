@@ -1,44 +1,25 @@
-html {
-	font-size: 100%
+body{
+  font-family: "Georgia", serif;
 }
 
 #header, #nav, #footer, h1, h2, h3{
   font-family: Tahoma, Geneva, sans-serif;
 }
-h1{
-	text-align: center;
-}
-h2{
-	font-size: 100%;
-}
+
 #header .inner{
-  background: grey;
-  padding:2px;
-	text-align: center;
-
-}
-
-img{
-	margin: auto;
-	height:50%;
-	width:50%;
-}
-#picture1 {
-	height:25%;
-}
-#content .inner{
-  background: lightpink;
+  background: #F38630;
   padding:10px;
-	text-align: center;
+}
 
+#content .inner{
+  background: #E0E4CC;
+  padding:10px;
 }
 
 #sidebar .inner{
-  background: lightblue;
+  background: #69D2E7;
   color:white;
   padding:10px;
-	text-align: left;
-	margin-left: 0px;
 }
 
 #nav ul{
@@ -70,10 +51,9 @@ img{
 }
 
 #footer{
-  background: lightgrey;
+  background: #FA6900;
   color:white;
-  padding: 5px;
-	text-align: center;
+  padding:10px;
 }
 
 @media screen and (min-width:600px){
@@ -119,13 +99,12 @@ img{
   }
 
   #content{
-    order:3;
+    order:1;
     margin:10px;
   }
 
   #sidebar{
-    order:1;
-		padding-left:
+    order:3;
     margin:10px;
   }
 
@@ -137,7 +116,6 @@ img{
 
   #footer{
     order:4;
-		margin-top: auto;
   }
 
 }
