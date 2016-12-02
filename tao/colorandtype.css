@@ -12,7 +12,7 @@ h2{
 	font-size: 100%;
 	color:white;
 	text-align: left;
-	
+
 }
 
 nav ul li {
@@ -168,6 +168,26 @@ img{
     flex-flow:row;
   }
 
+	.map-wrapper {
+			overflow:hidden;
+			padding-bottom:100%;
+			position:relative;
+			height:0;
+	}
+
+	.map-wrapper iframe{
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
+	}
+
+	.link {
+		flex-flow: row;
+		margin-bottom: 0;
+		
+	}
   #nav ul{
     display:flex;
     flex-flow:column;
@@ -192,6 +212,8 @@ img{
     margin:0px;
   }
 
+
+
   #nav{
     order:2;
     margin:10px;
@@ -201,6 +223,8 @@ img{
   #footer{
     order:4;
 		margin-top: auto;
+		padding-bottom: 1px;
+
   }
 
 }
